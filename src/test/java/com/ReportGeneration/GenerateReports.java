@@ -96,13 +96,7 @@ public class GenerateReports {
 		return "data:image/png;base64,"+screenshot;
 		
 	}
-	
-	
-	
-	
-	
-	
-	
+		
 	public static String createResultFolder()
 	{
 		

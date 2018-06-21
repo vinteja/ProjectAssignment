@@ -42,8 +42,44 @@ public class CreateAccount extends GenericFunctions {
 
 	@FindBy(how = How.XPATH, using = "//select[@id='years']")
 	public static WebElement drp_CreateAccount_year;
+	
+	@FindBy(how=How.XPATH,using="//input[@id='firstname']")
+	public static WebElement Txt_CreateAccount_FN;
+	
+	@FindBy(how=How.XPATH,using="//input[@id='lastname']")
+	public static WebElement Txt_CreateAccount_LN;
+	
+	@FindBy(how=How.XPATH,using="//input[@id='company']")
+	public static WebElement Txt_CreateAccount_Company;
+	
+	@FindBy(how=How.XPATH,using="//input[@id='address1']")
+	public static WebElement Txt_CreateAccount_Address;
+	
+	@FindBy(how=How.XPATH,using="//input[@id='city']")
+	public static WebElement Txt_CreateAccount_City;
+	
+	@FindBy(how=How.XPATH,using="//select[@id='id_country']")
+	public static WebElement Drp_CreateAccount_Country;
+		
+	@FindBy(how=How.XPATH,using="//input[@id='phone_mobile']")
+	public static WebElement Txt_CreateAccount_MobileNum;
+	
+	@FindBy(how=How.XPATH,using="//input[@id='alias']")
+	public static WebElement Txt_CreateAccount_AssignAdd;
+	
+	
+	@FindBy(how=How.XPATH,using="//button[@id='submitAccount']")
+	public static WebElement Btn_CreateAccount_Register;
+	
+	
+	
+		
+	
+	
+	
 
-	public boolean fill_form() {
+	public boolean fill_form() 
+	{
 		boolean status = true;
 		// Click on Sign-in link
 		Lnk_CreateAccount_signin.click();

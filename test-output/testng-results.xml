@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36585" started-at="2018-06-13T06:52:30Z" finished-at="2018-06-13T06:53:07Z">
+  <suite name="Suite" duration-ms="35545" started-at="2018-06-18T05:35:13Z" finished-at="2018-06-18T05:35:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36585" started-at="2018-06-13T06:52:30Z" finished-at="2018-06-13T06:53:07Z">
+    <test name="Test" duration-ms="35545" started-at="2018-06-18T05:35:13Z" finished-at="2018-06-18T05:35:48Z">
       <class name="com.TestCases.Tc_01_Login">
-        <test-method status="PASS" signature="validatedateofbirth()[pri:0, instance:com.TestCases.Tc_01_Login@3ffc5af1]" name="validatedateofbirth" duration-ms="34416" started-at="2018-06-13T12:22:31Z" finished-at="2018-06-13T12:23:06Z">
+        <test-method status="PASS" signature="validatedateofbirth()[pri:0, instance:com.TestCases.Tc_01_Login@3ffc5af1]" name="validatedateofbirth" duration-ms="33361" started-at="2018-06-18T11:05:14Z" finished-at="2018-06-18T11:05:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatedateofbirth -->
